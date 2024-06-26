@@ -9,7 +9,7 @@
 #    * @author : @SuhailTechInfo
 #    * @youtube : https://www.youtube.com/SuhailTechInfo
 #    * @description : Suhail-Md ,A Multi-functional whatsapp bot md.
-#    * @version 1.3.8
+#    * @version 1.3.9
 
 
  
