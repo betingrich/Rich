@@ -18,7 +18,7 @@ jobs:
         node-version: [20.x]
 
     steps:
-    - name: Check Suhail-Md repository
+    - name: Checkout Suhail-Md repo
       uses: actions/checkout@v3
 
     - name: Set up Node.js
@@ -29,5 +29,11 @@ jobs:
     - name: Install libraries
       run: npm install
 
-    - name: Starting Suhail-Md
-      run: npm start || yarn start || node .
+    - name: Start Suhail-Md
+    
+      env:
+          OWNER_NAME: 
+          OWNER_NUMBER:
+          SESSION_ID:
+
+      run: npm start
