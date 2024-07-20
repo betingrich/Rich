@@ -1,21 +1,19 @@
 #=============================================#
-# █▀▀▀█ █  █ █  █ ▄▀▀▄ ▀█▀ █     █▀▄▀█ █▀▀▄   #
-# ▀▀▀▄▄ █  █ █▀▀█ █▄▄█  █  █     █ █ █ █  █   #
-# █▄▄▄█ ▀▄▄▀ █  █ █  █ ▄█▄ █▄▄█  █   █ █▄▄▀   #
-#     𝗠𝗨𝗟𝗧𝗜𝗗𝗘𝗩𝗜𝗖𝗘 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧        #
+#               𝑴𝑨𝑹𝑰𝑺𝑬𝑳 𝑲𝑰𝑵𝑮
+#          𝘼𝙈𝙊𝙉𝙂 𝙏𝙃𝙀 𝘽𝙀𝙎𝙏 𝘽𝙊𝙏𝙎        #
 #=============================================#
 # 
-#    * @project_name : Suhail-Md
+#    * @project_name : Marisel King
 #    * @author : @SuhailTechInfo
 #    * @youtube : https://www.youtube.com/SuhailTechInfo
-#    * @description : Suhail-Md ,A Multi-functional whatsapp bot md.
+#    * @description : Marisel King , Among the Best Bots.
 #    * @version 1.3.9
 
 
  
 
-FROM quay.io/suhailtechinfo/suhail-v2
-RUN git clone https://github.com/SuhailTechInfo/Suhail-Md-V5 /root/luv
+FROM quay.io/https://github.com/betingrich/Rich
+RUN git clone https://github.com/betingrich/Rich /root/luv
 RUN rm -rf /root/luv/.git
 WORKDIR /root/luv
 RUN npm install || yarn install
